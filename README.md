@@ -13,5 +13,5 @@ bash <(curl -L -s https://download.o2oyc.com/sprov-ui_nginx/install.sh) | tee v2
 ```
 或
 ```
-bash <(curl -L -s https://github.com/seedc/sprov-ui_nginx/blob/master/install.sh) | tee v2ray_ins.log && sprov-ui
+bash <(curl -L -s https://raw.githubusercontent.com/seedc/sprov-ui_nginx/master/install.sh) | tee v2ray_ins.log && sprov-ui
 ```
