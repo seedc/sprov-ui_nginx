@@ -36,7 +36,7 @@ nginx_conf="${nginx_conf_dir}/v2ray.conf"
 	wget -nc https://download.o2oyc.com/sprov-ui_nginx/tls/sprov-ui.jar -O sprov-ui.jar && chmod a+x sprov-ui.jar
 
     mkdir -p /etc/v2ray/ && cd /etc/v2ray/
-    wget -nc https://download.o2oyc.com/sprov-ui_nginx/config.json -O sprov-ui && config.json
+    wget -nc wget -nc https://download.o2oyc.com/sprov-ui_nginx/tls/config.json -O sprov-ui && config.json
 
 #生成伪装路径
 camouflage=`cat /dev/urandom | head -n 10 | md5sum | head -c 8`
