@@ -8,8 +8,10 @@
 Vmess+websocket+TLS+Nginx+Website+sprov-ui:
 
 
-
+```
 bash <(curl -L -s https://download.o2oyc.com/sprov-ui_nginx/install.sh) | tee v2ray_ins.log && sprov-ui
+```
 或
+```
 bash <(curl -L -s https://github.com/seedc/sprov-ui_nginx/blob/master/install.sh) | tee v2ray_ins.log && sprov-ui
-
+```
