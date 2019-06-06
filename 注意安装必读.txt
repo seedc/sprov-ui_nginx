@@ -1,0 +1,7 @@
+注意：安装前请解析域名到主机，否则可能不成功.
+注意：安装 sprov-ui时候不要使用80端口和443端口
+Vmess+websocket+TLS+Nginx+Website+sprov-ui:
+
+bash <(curl -L -s https://download.o2oyc.com/sprov-ui_nginx/install.sh) | tee v2ray_ins.log && sprov-ui
+
+
